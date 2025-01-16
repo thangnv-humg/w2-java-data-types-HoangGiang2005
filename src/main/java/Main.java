@@ -3,11 +3,11 @@ public class Main {
         // TODO: Khai báo biến và viết chương trình theo yêu cầu trong README.md
         
         int tuoi = 42;
-        double chieu_cao = 1.75;
+        double nang = 3.14;
         String ten = "nguyen van a";
 
         System.out.println(tuoi);
-        System.out.println(chieu_cao);
+        System.out.println(nang);
         System.out.println(ten);
 
         if(tuoi > 10){
