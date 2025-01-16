@@ -2,15 +2,14 @@ public class Main {
     public static void main(String[] args) {
         // TODO: Khai báo biến và viết chương trình theo yêu cầu trong README.md
         
-        int tuoi = 42;
-        double nang = 3.14;
-        String ten = "nguyen van a";
+        int myInt = 42;
+        double myDouble = 3.14;
+        String myString = "Hello, Java!";
+        System.out.println(myInt);
+        System.out.println(myDouble);
+        System.out.println(myString);
 
-        System.out.println(tuoi);
-        System.out.println(nang);
-        System.out.println(ten);
-
-        if(tuoi > 10){
+        if(myInt > 10){
             System.out.println("Greater than 10");
         }
         else{
